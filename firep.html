@@ -21,11 +21,11 @@
 var map = L.map('map').setView([35.3, -120.5], 7);
 
 L.control.layers({
-    '1960-2013': L.layerGroup([
-      L.mapbox.tileLayer('slugis.i6ie8k2b'),
-      L.mapbox.tileLayer('slugis.i6ie8k2b')
-      ]).addTo(map),
-    '2000\'s': L.mapbox.tileLayer('slugis.i6ifa4ke')
+    '1960-2013': L.mapbox.tileLayer('slugis.i6ie8k2b').addTo(map),
+    '2000\'s': L.layerGroup([
+      L.mapbox.tileLayer('slugis.i6ifa4ke'),
+      L.mapbox.gridLayer('slugis.i6ifa4ke')
+      ])
 }, {
     
 }).addTo(map);
