@@ -16,8 +16,7 @@ jQuery.fn.loadRepositories = function(username) {
             list.append('<div class = "col-sm-2"> ' +
                         '<div class= "team-member">' +
                         '<img src="'+ this.avatar_url+ '" class="img-responsive img-circle" alt="">' + 
-                        '<h4>' + this.login + '</h4>' +
-                        '<p class="text-muted">Awesome teammate</p>' + 
+                        '<h4> <a href =" ' + this.html_url + ' " >'+ this.login + '</a></h4>' +
                         '</div> </div>'); 
         });      
       });

@@ -16,24 +16,8 @@ jQuery.fn.loadRepositories = function(username) {
             list.append('<div class = "col-sm-2"> ' +
                         '<div class= "team-member">' +
                         '<img src="'+ this.avatar_url+ '" class="img-responsive img-circle" alt="">' + 
-                        '<h4>' + this.login + '</h4>' +
-                        '<p class="text-muted">Awesome teammate</p>' + 
+                        '<h4> <a href =" ' + this.html_url + ' " '+ this.login + '</a></h4>' +
                         '</div> </div>'); 
         });      
       });
 };
-
-                //list.append('<div class = "col-sm-2">');
-                //list.append('<div class= "team-members"'>);
-                //list.append('<img src=' + this.avatar_url +'class="img-responsive img-circle" alt="">');
-                //list.append('<h4>' + this.id + '</h4>');
-                //list.append('<p class="text-muted">Awesome teammate</p>');
-                //list.append('</div> </div>');
-
-          //      <div class="col-sm-2">
-           //         <div class="team-member">
-            //            <img src="img/team/2.png" class="img-responsive img-circle" alt="">
-             //           <h4>Joe Larson</h4>
-              //          <p class="text-muted">Research Analyst II</p>
-               //     </div>
-               // </div>
