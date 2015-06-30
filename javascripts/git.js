@@ -13,7 +13,7 @@ jQuery.fn.loadRepositories = function(username) {
         var list = $('<dl/>');
         target.empty().append(list);
         $(repos).each(function() {
-                list.append('<dt>' + list.id);
+                list.append('<dt>' + this.html_url);
         });      
       });
 };

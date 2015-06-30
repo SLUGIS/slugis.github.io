@@ -266,9 +266,9 @@
             </div>
 
             <!-- DYNAMIC IMPORT FROM GITHUB (STILL NEEDS TO BE IMPLEMENTED)-->
-            <!--<div class= "row">
+            <div class= "row">
                <div id="gitpage"/>
-            </div>-->
+            </div>
 
             <div class="row">
                 <div class="col-sm-2">
@@ -322,11 +322,6 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Extra Descriptions.</p>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -334,7 +329,7 @@
     <aside class="clients">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-sm-12 text-center">
                     <h2 class="section-heading">In Cooperation With</h2>
                 </div>
             </div>
@@ -532,7 +527,7 @@
    <script src="javascripts/git.js" type="text/javascript"></script>
    <script type="text/javascript">
        $(function() {
-           $("#gitpage").loadRepositories("SLUGIS");
+           $("#gitpage").loadRepositories("thsteven13");
        });
    </script>
 
