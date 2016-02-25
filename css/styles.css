@@ -1,11 +1,60 @@
+.header {
+    position:absolute;
+    left:0; right:0;
+    height: 92px;
+    background-color: #f5f5f5;
+}
+
+.sidebar {
+    position:absolute;
+    left:0; top:92px; bottom: 40px;
+    width: 210px;
+}
+
+.content {
+    position: absolute;
+    left:210px; top:92px; right:0; bottom:40px;
+    padding-left: 25px;
+}
+
 .left {
 	text-align:left;
 	float:left;
+  padding-left: 10px;
 }
+
 .right{
 	float:right;
 	text-align:right;
+  padding:right: 10px;
 }
+
 .centered{
 	text-align:center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #f5f5f5;
+}
+
+.footer > .container {
+  padding-top: 11px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 3px;
+  margin: 10px;
+}
+
+h2 {
+  border-bottom: 1px solid #ddd;
 }
