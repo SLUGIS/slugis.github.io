@@ -58,3 +58,11 @@ img {
 h2 {
   border-bottom: 1px solid #ddd;
 }
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
