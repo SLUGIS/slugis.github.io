@@ -13,7 +13,7 @@
 
 .content {
     position: absolute;
-    left:210px; top:92px; right:0; bottom:40px;
+    left:210px; top:100px; right:0; bottom:40px;
     padding-left: 25px;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
@@ -46,6 +46,10 @@
   padding-top: 11px;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.textlink {
+  color: blue;
 }
 
 img {
